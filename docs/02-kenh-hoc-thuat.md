@@ -10,13 +10,14 @@
 |---|---|
 | ✔ | Đã đối chiếu (tra cứu 10/2026): nội dung khớp với kết quả tìm kiếm trỏ tới trang chính thức |
 | ? | Chưa đối chiếu được — dựa trên kiến thức chung hoặc dữ kiện không đủ chắc chắn |
+| ✔ (gián tiếp) | Chỉ thấy qua nguồn thứ cấp (bài viết, tài liệu của bên thứ ba), chưa có nguồn chính thức |
 | ✖ | Có dấu hiệu đã ngừng hoạt động |
 
 **Giới hạn của lần tra cứu này — hãy đọc trước khi dựa vào số liệu:**
 
-- Môi trường soạn thảo **không mở trực tiếp được trang gốc** (truy cập web bị chặn theo chính sách mạng) và hạn mức tìm kiếm bị cạn giữa chừng. Mọi nhãn ✔ nghĩa là *đã khớp với nội dung trang chính thức hiển thị trong kết quả tìm kiếm*, không phải *đã mở và đọc trang*.
+- Môi trường soạn thảo **không mở trực tiếp được trang gốc** (truy cập web bị chặn theo chính sách mạng) và hạn mức tìm kiếm bị cạn giữa chừng. Mọi nhãn ✔ nghĩa là *đã khớp với nội dung trang chính thức hiển thị trong kết quả tìm kiếm*, không phải *đã mở và đọc trang*. **Ngoại lệ:** ngày phát hành và commit của thư viện mã nguồn mở (mục 8.2, 11.2) được đọc trực tiếp từ GitHub/PyPI.
 - **Giá, lịch thi, hạn nộp hồ sơ, ngày hội nghị** thay đổi thường xuyên. Chúng được ghi để tham khảo; luôn kiểm tra lại trên liên kết chính thức.
-- Phần **Việt Nam** (mục 11) gần như **chưa được kiểm chứng**, và các mục **7–10** (sách, thư viện, cộng đồng, dữ liệu) chủ yếu là kiến thức chung mang nhãn `?`.
+- Đào tạo chính quy và chứng chỉ **trong nước** ở Việt Nam (mục 11.1) **chưa được kiểm chứng**. Nhãn `?` đánh dấu những mục không tra được; hãy ưu tiên mở liên kết nguồn cho mục nào quan trọng với quyết định của bạn.
 
 ## 1. Bản đồ nhanh
 
@@ -150,104 +151,170 @@ Giá lấy từ trang chính thức tại thời điểm tra cứu (10/2026), t�
 
 ## 7. Sách và bài báo kinh điển
 
-Tên sách, tác giả và năm xuất bản dưới đây là kiến thức chung về các tài liệu nền tảng; **chưa đối chiếu trực tuyến** (nhãn `?`). Hãy kiểm tra lần xuất bản mới nhất trước khi mua.
+Tên sách, tác giả, nhà xuất bản và năm được đối chiếu **gián tiếp** qua nhiều trích dẫn BibTeX/README độc lập trên GitHub (chưa mở trang nhà xuất bản). Hãy kiểm tra lần xuất bản mới nhất trước khi mua.
 
-| Tác giả | Tên | Mức | Đáng đọc vì |
-|---|---|---|---|
-| Ernest P. Chan | *Quantitative Trading* (bản 2, 2021) | Nhập môn | Dựng quy trình quant ở quy mô cá nhân từ đầu |
-| Rishi Narang | *Inside the Black Box* | Nhập môn | Cấu trúc một hệ quant: alpha, rủi ro, chi phí, danh mục, thực thi |
-| Ernest P. Chan | *Algorithmic Trading* (2013), *Machine Trading* (2017) | Trung cấp | Các chiến lược cụ thể (mean reversion, momentum) kèm lý do chúng tồn tại |
-| Lasse H. Pedersen | *Efficiently Inefficient* (2015) | Trung cấp | Các chiến lược của quỹ phòng hộ và nguồn lợi nhuận của chúng |
-| Larry Harris | *Trading and Exchanges* (2003) | Trung cấp | Vi cấu trúc thị trường dành cho người làm thực tế |
-| Stefan Jansen | *Machine Learning for Algorithmic Trading* (bản 2, 2020) | Trung cấp | ML áp dụng vào giao dịch, kèm mã |
-| John C. Hull | *Options, Futures, and Other Derivatives* | Trung cấp | Nền tảng phái sinh |
-| Marcos López de Prado | *Advances in Financial Machine Learning* (2018) | Nâng cao | Backtest và ML đúng cách: purged CV, chống overfitting |
-| Marcos López de Prado | *Machine Learning for Asset Managers* (2020) | Nâng cao | ML cho xây dựng danh mục |
-| Grinold & Kahn | *Active Portfolio Management* | Nâng cao | Khung lý thuyết về IC, breadth và information ratio |
-| Roman Isichenko | *Quantitative Portfolio Management* (2021) | Nâng cao | Quản trị danh mục định lượng từ góc nhìn người làm thực tế |
-| Cartea, Jaimungal & Penalva | *Algorithmic and High-Frequency Trading* (2015) | Nâng cao | Thực thi tối ưu, market making |
-| Bouchaud, Bonart, Donier & Gould | *Trades, Quotes and Prices* (bản 2, 2018) | Nâng cao | Vi cấu trúc thị trường và tác động giá |
-| Steven Shreve | *Stochastic Calculus for Finance* (I, II) | Nâng cao | Toán nền tảng cho định giá phái sinh |
-| Kakushadze & Serur | *151 Trading Strategies* (2018) | Tham khảo | Danh mục chiến lược kèm công thức (bản trên SSRN) |
-| Andrew Lo | *Adaptive Markets* (2017) | Đọc thêm | Khung "thị trường thích nghi" thay cho thị trường hiệu quả |
-| Emanuel Derman | *My Life as a Quant* (2004) | Đọc thêm | Nghề quant từ bên trong |
-| Gregory Zuckerman | *The Man Who Solved the Market* (2019) | Đọc thêm | Câu chuyện Renaissance Technologies (không phải sách kỹ thuật) |
+| Tác giả | Tên | Nhà xuất bản, năm | Mức | Đáng đọc vì | Đối chiếu |
+|---|---|---|---|---|---|
+| Ernest P. Chan | *Quantitative Trading: How to Build Your Own Algorithmic Trading Business* | Wiley, 2008; bản 2: 2021 | Nhập môn | Dựng quy trình quant cá nhân gọn | ✔ |
+| Rishi K. Narang | *Inside the Black Box* (bản 2, 2013: *A Simple Guide to Quantitative and High Frequency Trading*; bản 3, 2024: *A Simple Guide to Systematic Investing*) | Wiley | Nhập môn | Bản đồ các khối của một hệ quant | ✔ |
+| Ernest P. Chan | *Algorithmic Trading: Winning Strategies and Their Rationale* | Wiley, 2013 | Trung cấp | Mean reversion / momentum kèm lý do kinh tế | ✔ |
+| Ernest P. Chan | *Machine Trading: Deploying Computer Algorithms to Conquer the Markets* | Wiley, 2017 | Trung cấp | ML áp dụng thực chiến | ✔ |
+| Lasse H. Pedersen | *Efficiently Inefficient* | Princeton UP, 2015 | Trung cấp | Chiến lược của quỹ và rủi ro thanh khoản | ✔ |
+| Larry Harris | *Trading and Exchanges: Market Microstructure for Practitioners* | Oxford UP, 2003 | Trung cấp | Cách sàn, lệnh và thanh khoản vận hành | ✔ |
+| Stefan Jansen | *Machine Learning for Algorithmic Trading* (bản 2) | Packt, 2020 | Trung cấp | Mã đầy đủ từ dữ liệu đến backtest. Kho mã của tác giả nay ghi bản 3 *Machine Learning for Trading* (2026); đã xuất bản hay chưa: chưa xác minh | ✔ (bản 2) |
+| John C. Hull | *Options, Futures, and Other Derivatives* | Pearson | Trung cấp | Giáo trình phái sinh chuẩn | ? (bản mới nhất; bản 11 xác nhận gián tiếp) |
+| Kakushadze & Serur | *151 Trading Strategies* | Palgrave Macmillan / Springer Nature, 2018 (SSRN 3247865) | Trung cấp | Danh mục công thức chiến lược. Toàn văn có miễn phí trên SSRN hay không: chưa xác minh | ✔ |
+| Marcos López de Prado | *Advances in Financial Machine Learning* | Wiley, 2018 | Nâng cao | Purged CV, meta-labeling, chống overfitting | ✔ |
+| Marcos López de Prado | *Machine Learning for Asset Managers* | Cambridge UP (Elements), 2020 | Nâng cao | Khử nhiễu ma trận hiệp phương sai, HRP/NCO | ✔ |
+| Marcos López de Prado | *Causal Factor Investing* | Cambridge UP, 2023 (truy cập mở) | Nâng cao | Nhân quả thay vì tương quan trong đầu tư theo nhân tố | ✔ |
+| Grinold & Kahn | *Active Portfolio Management* (bản 2) | McGraw-Hill, 2000 | Nâng cao | IC, breadth, "fundamental law" | ✔ |
+| Roman Isichenko | *Quantitative Portfolio Management: The Art and Science of Statistical Arbitrage* | Wiley, 2021 | Nâng cao | Stat-arb hiện đại, chi phí giao dịch | ✔ |
+| Cartea, Jaimungal & Penalva | *Algorithmic and High-Frequency Trading* | Cambridge UP, 2015 | Nâng cao | Thực thi tối ưu, market making | ✔ |
+| Bouchaud, Bonart, Donier & Gould | *Trades, Quotes and Prices* | Cambridge UP, 2018 | Nâng cao | Vi cấu trúc thị trường thực nghiệm | ✔ |
+| Steven Shreve | *Stochastic Calculus for Finance* (I, II) | Springer Finance, 2004 | Nâng cao | Nền toán định giá phái sinh | ✔ |
+| Andrew W. Lo | *Adaptive Markets* | Princeton UP, 2017 | Đọc thêm | Khung "thị trường thích nghi" | ✔ |
+| Emanuel Derman | *My Life as a Quant* | Wiley, 2004 | Đọc thêm | Nghề quant từ bên trong | ✔ |
+| Gregory Zuckerman | *The Man Who Solved the Market* | 2019 | Đọc thêm | Renaissance Technologies (không phải sách kỹ thuật) | ✔ |
 
 **Bài báo nên đọc** (về kiểm định chiến lược):
 
-| Bài | Nội dung |
-|---|---|
-| Bailey & López de Prado (2014), *The Deflated Sharpe Ratio* | Điều chỉnh Sharpe theo số lần thử và độ lệch/độ nhọn |
-| Bailey, Borwein, López de Prado & Zhu, *The Probability of Backtest Overfitting* | Ước lượng xác suất chiến lược tốt nhất trong mẫu lại kém ngoài mẫu |
-| Harvey, Liu & Zhu (2016), *…and the Cross-Section of Expected Returns* | Vì sao cần ngưỡng thống kê cao hơn khi đã có hàng trăm nhân tố được thử |
+| Bài | Nơi đăng | Nội dung | Đối chiếu |
+|---|---|---|---|
+| Bailey & López de Prado, *The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting and Non-Normality* | Journal of Portfolio Management 40(5), 2014 (SSRN 2460551) | Hiệu chỉnh Sharpe khi đã thử nhiều chiến lược | ✔ |
+| Bailey, Borwein, López de Prado & Zhu, *The Probability of Backtest Overfitting* | Journal of Computational Finance 20(4), 2017 (bản thảo SSRN 2326253) | Xác suất chiến lược tốt nhất trong mẫu lại kém ngoài mẫu | ✔ |
+| Harvey, Liu & Zhu, *…and the Cross-Section of Expected Returns* | Review of Financial Studies 29(1), 2016 | Vì sao cần ngưỡng thống kê cao hơn khi đã thử hàng trăm nhân tố | ✔ |
 
 ## 8. Nền tảng thực hành, thư viện mã nguồn mở và cuộc thi
 
-Mọi mục dưới đây mang nhãn `?`: tên và mục đích là kiến thức chung; **tình trạng bảo trì, giấy phép và giá hiện hành chưa được kiểm tra**. Trước khi dựa vào một thư viện, hãy xem lần phát hành và hoạt động gần nhất trên trang GitHub/PyPI của nó.
+Danh sách mang tính **thông tin**, không phải khuyến nghị sử dụng. Ngày phát hành/commit của thư viện được **đọc trực tiếp từ GitHub/PyPI** (nguồn sơ cấp, tra cứu 10/2026); giá và điều khoản các nền tảng đối chiếu gián tiếp nên có thể đã đổi.
 
 ### 8.1 Nền tảng
 
-| Nền tảng | Dùng để |
-|---|---|
-| QuantConnect (động cơ mã nguồn mở LEAN) | Nghiên cứu, backtest và triển khai chiến lược trên nhiều loại tài sản |
-| MetaTrader 5 + cộng đồng MQL5 (mql5.com) | Giao dịch FX/CFD bán lẻ; tài liệu, bài viết, kho mã, Strategy Tester |
-| TradingView (Pine Script) | Vẽ biểu đồ và viết chỉ báo/chiến lược đơn giản |
-| WorldQuant BRAIN, Numerai | Nền tảng nghiên cứu alpha / giải đấu dự báo (kiểm tra điều kiện tham gia) |
-| Kaggle | Các cuộc thi dự báo thị trường do công ty giao dịch tổ chức (kiểm tra cuộc thi đang mở) |
-| Interactive Brokers API, Alpaca, ccxt | Kết nối lập trình tới broker (cổ phiếu/phái sinh) và sàn tiền mã hóa |
-| Quantopian | Từng là nền tảng cộng đồng nổi tiếng; **đã đóng cửa** (kiến thức chung — các bài giảng và Zipline vẫn được cộng đồng lưu giữ) |
+| Nền tảng | Dùng để | Chi phí / điều kiện | Tình trạng | Đối chiếu |
+|---|---|---|---|---|
+| [QuantConnect](https://github.com/QuantConnect/Lean) (động cơ mã nguồn mở LEAN + dịch vụ đám mây) | Nghiên cứu, backtest, chạy live đa tài sản | Gói miễn phí: 1 node backtest (200 backtest/ngày) và 1 node research, **không** chạy live. Gói trả phí khởi điểm khoảng 84 USD/tháng, node live từ khoảng 24 USD/tháng (theo tài liệu chính thức 09/2026; một nguồn cũ ghi mức thấp hơn — hãy xem trang giá) | LEAN (Apache-2.0) hoạt động rất tích cực, commit 09/2026 | ✔ |
+| QuantRocket | Nền tảng Python tự host (dựa trên Zipline/Moonshot) | Trả phí; giá chưa xác minh | Kho mã còn hoạt động 09/2026 | ✔ |
+| WorldQuant BRAIN | Mô phỏng alpha; cuộc thi IQC; chương trình Consultant | Đăng ký miễn phí. IQC 2026: vòng loại 17/03–19/05, quỹ thưởng 100,000 USD. Consultant: được mời khi đạt ngưỡng điểm; danh sách quốc gia hỗ trợ có Việt Nam (nguồn gián tiếp) | Hoạt động 2026 | ✔ (gián tiếp) |
+| Numerai | Dự báo dữ liệu ẩn danh, đặt cược bằng NMR | Tham gia miễn phí; stake bằng NMR. Kế hoạch 2026 chưa xác nhận | Hoạt động 2026 | ✔ (gián tiếp) |
+| Alpaca | Broker API-first (cổ phiếu, ETF, quyền chọn, crypto), có paper trading | API giao dịch và paper miễn phí; dữ liệu cơ bản miễn phí (IEX, 200 yêu cầu/phút), gói dữ liệu trả phí khoảng 99 USD/tháng (nguồn thứ cấp). Mở tài khoản thật cho cư dân Việt Nam: **chưa xác minh** | `alpaca-py` 0.44.0 (08/2026, Apache-2.0); `alpaca-trade-api` đã cũ | ✔ (gián tiếp) |
+| Interactive Brokers API | TWS API (Python, Java, C#, C++) | Phí API và điều kiện mở tài khoản từ Việt Nam: chưa xác minh | Kho chính thức cập nhật 09/2026; thư viện cộng đồng `ib_async` thay `ib_insync` | ✔ |
+| MetaTrader 5 + gói Python | Nền tảng MT5, điều khiển bằng Python | Qua broker; phí chưa xác minh | Gói PyPI `MetaTrader5` 5.0.6231 (09/2026, MIT), cập nhật liên tục | ✔ |
+| MQL5.community | Bài viết kỹ thuật, kho mã, Forge (Git) | Chưa kiểm | Bài viết còn đăng (05/2026); `forge.mql5.io` được dùng trong các kho mã 2026. Docs, Code Base, Signals, Market, Cloud Network: chưa tra được | ✔ (gián tiếp) |
+| TradingView (Pine Script) | Chỉ báo và chiến lược trên TradingView | Chưa xác minh | Công cụ bên thứ ba 2026 nhắm Pine v5/v6 | ? |
+
+**Cuộc thi Kaggle về dự báo thị trường — tất cả cuộc thi lớn tìm thấy đều đã kết thúc:** Jane Street (Market Prediction 2020–21; Real-Time Market Data Forecasting 10/2024–07/2025), Optiver (Realized Volatility 2021–22; Trading at the Close 2023–24), G-Research Crypto (kết thúc 05/2022), Hull Tactical (kết thúc 06/2026), MITSUI Commodity (kết thúc 01/2026). Không thấy cuộc thi quant nào đang mở trong chỉ mục khi tra cứu (✔, gián tiếp).
 
 ### 8.2 Thư viện mã nguồn mở
 
-| Nhóm | Thư viện | Mục đích |
-|---|---|---|
-| Backtest / giao dịch | LEAN; zipline-reloaded; backtrader; vectorbt; backtesting.py; NautilusTrader; hftbacktest | Backtest và chạy chiến lược (vector hóa hoặc event-driven; hftbacktest cho dữ liệu sổ lệnh) |
-| Danh mục / rủi ro | Riskfolio-Lib; PyPortfolioOpt; skfolio | Tối ưu danh mục, đo rủi ro |
-| Thống kê | statsmodels; arch | Chuỗi thời gian, hồi quy, GARCH |
-| Phân tích hiệu suất | quantstats; pyfolio-reloaded; alphalens-reloaded | Báo cáo hiệu suất, phân tích nhân tố |
-| Chỉ báo | TA-Lib; pandas-ta | Chỉ báo kỹ thuật |
-| Định giá | QuantLib | Phái sinh, lãi suất |
-| ML / RL | Qlib (Microsoft); FinRL | Nền tảng nghiên cứu ML và học tăng cường cho đầu tư |
-| Crypto | ccxt; freqtrade | Kết nối sàn; bot giao dịch mã nguồn mở |
+Dữ liệu ghi theo tháng/năm. Với thư viện **copyleft** (AGPL, GPL, LGPL), hãy đọc kỹ giấy phép nếu bạn định phân phối hoặc bán sản phẩm dựa trên chúng.
 
-Lưu ý: *backtrader* được biết là ít cập nhật; *mlfinlab* từng mã nguồn mở nhưng được ghi nhận đã chuyển sang mô hình thương mại — cả hai điểm đều là kiến thức chung, cần kiểm tra lại.
+| Thư viện | Mục đích | Giấy phép | Phát hành / commit gần nhất | Bảo trì |
+|---|---|---|---|---|
+| QuantLib | Định giá phái sinh, lãi suất | BSD-3-Clause | 1.43 (07/2026); commit 09/2026 | Tích cực |
+| zipline-reloaded | Backtest sự kiện (kế thừa Zipline của Quantopian) | Apache-2.0 | 3.1.1 (07/2025); commit 11/2025 | Thấp |
+| backtrader | Backtest và chạy live | GPL-3.0+ | 1.9.78.123 (04/2023) | **Ngừng thực tế**; diễn đàn cộng đồng cũng đã chết |
+| vectorbt | Backtest vector hóa | Apache-2.0 + Commons Clause | 1.1.1 (09/2026); 1.0 (04/2026) thêm engine Rust | Rất tích cực; có bản PRO trả phí riêng |
+| backtesting.py | Backtest nhẹ | **AGPL-3.0** (copyleft mạnh) | 0.6.6 (07/2026) | Vừa |
+| bt | Backtest phân bổ danh mục | MIT | 1.2.3 (09/2026) | Tích cực |
+| NautilusTrader | Engine event-driven (Rust/Python) | LGPL-3.0+ | 1.231.0 ổn định (08/2026); 2.0.0rc5 (09/2026, tiền phát hành) | Rất tích cực |
+| hftbacktest | Backtest HFT với dữ liệu sổ lệnh | MIT | 2.4.4 (12/2025) | Chậm (khoảng 9 tháng không commit) |
+| Riskfolio-Lib | Tối ưu danh mục, đo rủi ro | BSD-3 | 7.3.0 (05/2026); commit 09/2026 | Tích cực |
+| PyPortfolioOpt | Tối ưu danh mục | MIT | 1.6.0 (02/2026); commit 07/2026 | Vừa |
+| skfolio | Danh mục theo kiểu scikit-learn | BSD-3 | 1.4.10 (09/2026) | Rất tích cực |
+| statsmodels | Kinh tế lượng, chuỗi thời gian | BSD-3 | 0.15.0 (08/2026) | Tích cực |
+| arch | GARCH, bootstrap | NCSA theo PyPI (tóm tắt GitHub ghi MIT — mâu thuẫn, hãy xem bản phát hành) | 8.0.0 (10/2025); commit 09/2026 | Tích cực |
+| quantstats | Báo cáo hiệu suất | Apache-2.0 | 0.0.86 (09/2026) | Tích cực (vừa sửa lỗi tính toán 09/2026) |
+| alphalens-reloaded, pyfolio-reloaded | Phân tích nhân tố, báo cáo danh mục | Apache-2.0 | 0.4.6 và 0.9.9 (06/2025) | Thấp |
+| TA-Lib | Chỉ báo kỹ thuật | BSD-3-Clause | wrapper 0.8.1 (09/2026) | Tích cực |
+| pandas-ta | Chỉ báo kỹ thuật | Không rõ | PyPI 0.4.71b0 (09/2025, beta); kho gốc `twopirllc/pandas-ta` trả 404 | **Bất định**; có fork `pandas-ta-classic` (MIT) |
+| ccxt | Kết nối API nhiều sàn crypto | MIT | 4.5.84 (09/2026) | Rất tích cực |
+| freqtrade | Bot giao dịch crypto | GPL-3.0 | 2026.9 (09/2026) | Rất tích cực |
+| Qlib (Microsoft) | Nền tảng nghiên cứu ML cho đầu tư | MIT | 0.9.7 (08/2025); commit 09/2026 | Duy trì; dataset chính thức đang tạm tắt |
+| FinRL | Học tăng cường cho tài chính | MIT | PyPI 0.3.7 (04/2024); commit 09/2026 | README: bản giáo dục/nghiên cứu; phát triển chuyển sang FinRL-X |
+| mlfinlab | Công cụ theo López de Prado | "All rights reserved" | Không còn trên PyPI | **Thương mại**, không còn mã mở; có fork mở `mlfinpy` (MIT, alpha) |
+
+Tất cả dòng trên: ✔ (đọc trực tiếp từ GitHub/PyPI), riêng *pandas-ta* mang nhãn `?` do trạng thái bất định.
+
+### 8.3 Dự án từng nổi tiếng, nay ngừng hoặc đổi mô hình
+
+Để người mới khỏi tốn thời gian:
+
+- **Quantopian** (đóng cuối 2020) → kế thừa: zipline-reloaded, alphalens/pyfolio-reloaded (bảo trì thấp từ 06/2025), QuantRocket; bài giảng được cộng đồng lưu giữ. ✖
+- **backtrader**: không có commit từ 04/2023; diễn đàn cộng đồng đã chết. ✖
+- **ib_insync** (bản cuối 07/2023) → `ib_async`; **alpaca-trade-api** (bản cuối 01/2024) → `alpaca-py`.
+- **mlfinlab**: từ mã mở sang đóng nguồn/thương mại.
+- **pandas-ta**: kho gốc trả 404, PyPI chỉ còn bản beta 2025; có các fork.
+- **Polygon.io** → **Massive** (đổi tên 30/10/2025); **Quandl** → **Nasdaq Data Link**.
+- **Stooq**: dữ liệu CSV cần API key từ 03/2026 (theo một issue của pandas-datareader).
+- **Qlib**: dataset chính thức tạm tắt; **FinRL**: phát triển chuyển sang FinRL-X.
+- **Journal of Trading** và **Market Microstructure and Liquidity**: xem mục 2.2.
 
 ## 9. Cộng đồng, blog và podcast
 
-Tên là kiến thức chung (nhãn `?`); **mức độ còn hoạt động 2025–2026 chưa được kiểm tra**.
+Cột "Đối chiếu" dựa trên **dấu hiệu hoạt động 2025–2026 tìm thấy gián tiếp** (bài/tập mới), không phải đánh giá chất lượng.
 
-| Loại | Ví dụ |
-|---|---|
-| Hỏi đáp / diễn đàn | Quantitative Finance Stack Exchange; QuantNet; Wilmott forum; r/algotrading |
-| Blog / nghiên cứu thực hành | Quantpedia; QuantStart; Quantocracy (tổng hợp blog); Alpha Architect; Robot Wealth; nghiên cứu công khai của AQR, Two Sigma, Man Institute |
-| Podcast | Better System Trader; Chat With Traders; Top Traders Unplugged |
+| Nguồn | Dấu hiệu hoạt động | Đối chiếu |
+|---|---|---|
+| Quantpedia | Thư viện chiến lược; gói trả phí (Prime/Premium/Pro, hơn 900 chiến lược, có API) và khoảng 70 chiến lược miễn phí | ✔ (gián tiếp) |
+| Quantocracy | Tổng hợp blog quant, còn đăng năm 2026 | ✔ (gián tiếp) |
+| AQR (Data Library, Alternative Thinking) | Data Library cập nhật đến 05–06/2026 | ✔ (gián tiếp) |
+| Two Sigma Insights; Man Institute | Còn xuất bản 2025–2026 | ✔ (gián tiếp) |
+| Quantitative Finance Stack Exchange | Còn câu hỏi mới (09/2026) | ✔ (gián tiếp) |
+| r/algotrading | Còn bài đăng (04/2026) | ✔ (gián tiếp) |
+| Podcast: Better System Trader; Chat With Traders; Top Traders Unplugged | Còn phát hành (tập mới 09/2026) | ✔ (gián tiếp) |
+| Discord của Freqtrade; diễn đàn QuantConnect; diễn đàn Alpaca | Còn hoạt động (08/2026) | ✔ (gián tiếp) |
+| QuantStart, Robot Wealth, Alpha Architect, QuantNet, Wilmott, Elite Trader | Không có bằng chứng đủ tin về hoạt động 2025–2026 (QuantStart có dấu hiệu ít hoạt động) | ? |
+| Diễn đàn cộng đồng backtrader | Không truy cập được | ✖ |
 
 ## 10. Nguồn dữ liệu để học
 
-Mọi nguồn dữ liệu miễn phí đều có giới hạn về **giấy phép, chất lượng và survivorship bias** — đừng dùng chúng để kết luận về chiến lược rồi chạy tiền thật mà không kiểm tra chéo. Điều khoản và gói miễn phí **chưa được đối chiếu**.
+Mọi nguồn dữ liệu miễn phí đều có giới hạn về **giấy phép, chất lượng và survivorship bias** — đừng dùng chúng để kết luận về chiến lược rồi chạy tiền thật mà không kiểm tra chéo. Điều khoản và gói miễn phí đối chiếu gián tiếp nên có thể đã đổi.
 
-| Nguồn | Ghi chú |
-|---|---|
-| Yahoo Finance (qua thư viện yfinance) | Tiện cho học tập; điều khoản sử dụng hạn chế dùng thương mại; dữ liệu có thể sai/thiếu |
-| FRED (Cục Dự trữ Liên bang St. Louis) | Dữ liệu kinh tế vĩ mô, lãi suất |
-| Stooq, Alpha Vantage, Tiingo, Polygon | Dữ liệu giá cổ phiếu/FX/crypto; gói miễn phí có giới hạn |
-| data.binance.vision | Dữ liệu lịch sử công khai của Binance |
-| Nasdaq Data Link (trước là Quandl) | Tập dữ liệu đa dạng, một phần trả phí |
-| Dukascopy | Dữ liệu tick ngoại hối |
-| Databento | Dữ liệu thị trường chất lượng cao, trả phí |
-| Lịch sử giá của broker MT5 | Tiện nhất cho bot MT5 nhưng **khác nhau giữa các broker** và thường không đủ dài/sạch để kiểm định nghiêm túc |
+| Nguồn | Điều khoản / gói (tra cứu 10/2026) | Cảnh báo | Đối chiếu |
+|---|---|---|---|
+| Yahoo Finance (thư viện `yfinance`) | Thư viện Apache-2.0 (1.7.0, 08/2026). README: không liên kết với Yahoo, dùng cho nghiên cứu/giáo dục; "API của Yahoo! Finance chỉ dành cho cá nhân" | Lấy dữ liệu không chính thức; bị giới hạn tốc độ; ngày công bố lợi nhuận kém tin cậy (nhiều lỗi được báo cáo 2025–26) | ✔ |
+| FRED | Khóa API miễn phí; bắt buộc ghi thông báo "uses the FRED® API but is not endorsed…"; một số chuỗi của bên thứ ba có bản quyền | Kiểm tra bản quyền từng chuỗi | ✔ (gián tiếp) |
+| Stooq | CSV miễn phí nhưng từ 03/2026 cần API key; không có điều khoản/SLA | Chỉ nên dùng làm dự phòng | ✔ (gián tiếp) |
+| Alpha Vantage | Khóa miễn phí: 25 yêu cầu/ngày, 5 yêu cầu/phút; điều khoản tách cá nhân phi thương mại và thương mại | Không đủ để quét nhiều mã | ✔ (gián tiếp) |
+| Tiingo | Gói miễn phí giới hạn (khoảng 1,000 yêu cầu/ngày, 500 mã/tháng — tài liệu thứ cấp) | Giá và giới hạn chưa đối chiếu trang gốc | ✔ (gián tiếp) |
+| Polygon.io (nay là Massive) | Đổi tên Massive.com ngày 30/10/2025; khóa cũ vẫn dùng; gói miễn phí giới hạn | Tên miền API đổi từ `api.polygon.io` sang `api.massive.com` | ✔ |
+| data.binance.vision | Dữ liệu spot/futures công khai (klines, trades) kèm checksum; kho mã MIT + điều khoản sử dụng | Chỉ một sàn; đọc điều khoản | ✔ |
+| Nasdaq Data Link (trước là Quandl) | Cần khóa API; bộ dữ liệu miễn phí/trả phí hiện hành chưa xác minh | Client Python cũ (08/2022) | ? |
+| Dukascopy | Tick FX/CFD miễn phí qua công cụ bên thứ ba; điều khoản gốc chưa mở được | Kiểm tra điều khoản trước khi dùng thương mại | ? |
+| Databento | Trả phí theo mức sử dụng; có credit dùng thử cho tài khoản mới (nguồn thứ cấp) | Giá chưa đối chiếu trang gốc | ✔ (gián tiếp) |
+| Lịch sử giá của broker MT5 | Tiện nhất cho bot MT5 | **Khác nhau giữa các broker**; chưa kiểm chất lượng | ? |
+
+**Cảnh báo chung:** Yahoo, Alpaca và Stooq chủ yếu phục vụ danh sách mã **đang niêm yết** — mã đã hủy niêm yết biến mất (**survivorship bias**; ước lượng thứ cấp cho thấy tác động có thể đáng kể). Feed IEX miễn phí của Alpaca chỉ chiếm một phần nhỏ khối lượng hợp nhất (ước lượng thứ cấp khoảng vài %). Dữ liệu MT5 phụ thuộc broker.
 
 ## 11. Tại Việt Nam
 
-**Cảnh báo về mức độ chưa kiểm chứng:** nhóm này **chưa được tra cứu xong** — hạn mức tìm kiếm cạn và truy cập trang của các trường, Ủy ban Chứng khoán bị chặn. Việc **chưa tìm thấy** thông tin không có nghĩa là Việt Nam *không có* chương trình hay cộng đồng tương ứng.
+### 11.1 Đào tạo chính quy và chứng chỉ trong nước — chưa kiểm chứng
+
+Phần này **chưa được tra cứu xong**: hạn mức tìm kiếm cạn và truy cập trang của các trường, Ủy ban Chứng khoán bị chặn. Việc **chưa tìm thấy** không có nghĩa là Việt Nam *không có* chương trình tương ứng.
 
 | Việc cần làm | Gợi ý |
 |---|---|
-| Tìm chương trình đào tạo định lượng trong nước | Tra trang tuyển sinh của các trường kinh tế, ngoại thương, bách khoa và các đại học quốc gia với các tên gọi **"Tài chính định lượng", "Toán tài chính", "Kỹ thuật tài chính", "Financial Engineering", "Quantitative Finance", "Data Science in Finance"** |
+| Tìm chương trình đào tạo định lượng trong nước | Tra trang tuyển sinh của các trường kinh tế, ngoại thương, bách khoa và đại học quốc gia với các tên gọi **"Tài chính định lượng", "Toán tài chính", "Kỹ thuật tài chính", "Financial Engineering", "Quantitative Finance", "Data Science in Finance"** |
 | Chứng chỉ chứng khoán trong nước | Trung tâm nghiên cứu và đào tạo chứng khoán của Ủy ban Chứng khoán Nhà nước; các hiệp hội nghề nghiệp (kiểm tra thông tin hiện hành) |
 | Văn bằng online quốc tế (ví dụ WorldQuant University) | Kiểm tra việc công nhận văn bằng với cơ quan quản lý giáo dục trước khi đầu tư thời gian |
-| Dữ liệu và API thị trường trong nước | Xem [05 — Thị trường Việt Nam](05-thi-truong-viet-nam.md), mục API của SSI, DNSE, TCBS |
-| Cộng đồng và kênh tiếng Việt về quant/algo trading | **Chưa xác minh được** cộng đồng cụ thể nào; hãy tìm trực tiếp và áp dụng bảng "dấu hiệu cảnh báo" ở mục 13 |
+
+### 11.2 Thư viện, dữ liệu và cộng đồng mã nguồn mở bằng tiếng Việt
+
+Tìm thấy qua GitHub/PyPI (nguồn sơ cấp, tra cứu 10/2026). Danh sách mang tính thông tin, **không phải khuyến nghị**; hãy tự kiểm tra giấy phép, điều khoản và độ tin cậy trước khi dùng. API **giao dịch** của các công ty chứng khoán (SSI, DNSE, TCBS…) xem [05 — Thị trường Việt Nam](05-thi-truong-viet-nam.md), mục 4.
+
+| Tên | Loại / giấy phép | Tình trạng | Đối chiếu |
+|---|---|---|---|
+| **vnstock** | Thư viện dữ liệu chứng khoán Việt Nam. Giấy phép riêng *license-2026.09* (mã nguồn mở nhưng **không phải** giấy phép OSI): miễn phí cho cá nhân/học tập/nghiên cứu; cần thỏa thuận riêng nếu phân phối lại hoặc làm sản phẩm bán quyền truy cập dữ liệu. Hạn mức theo cấp: khách 20 lượt gọi/phút; cộng đồng 60 (đăng ký miễn phí lấy API key); cấp tài trợ 180–600. Giấy phép cũ (vnstock3) cấm thương mại và có telemetry ẩn danh | Bản 4.0.9 (09/2026); nguồn dữ liệu VCI, KBS, MSN, FMarket (TCBS bị gỡ từ 03/2026). **Lưu ý:** gói `vnstock` trên PyPI đang ở trạng thái "quarantined" (lý do chưa rõ) và README hướng dẫn cài từ một index riêng — hãy cân nhắc rủi ro chuỗi cung ứng và kiểm tra nguồn gói trước khi cài | ✔ |
+| **QuantVN** | Dự án quant mở + thư viện `quantvn` (cổ phiếu Việt Nam, phái sinh VN30, crypto Binance); MIT; cần API key của nền tảng | Bản 0.1.25 (07/2026, alpha); commit 09/2026 | ✔ |
+| **XNO Quant** | Cộng đồng + thư viện `xnoapi` (cổ phiếu, VN30F1M/F2M, quỹ, forex/crypto); MIT; cần API key | Bản 0.1.28 (10/2025); cập nhật chậm; có chuỗi webinar. Mức hoạt động của nhóm cộng đồng chưa kiểm | ✔ |
+| **vnquant** | Lấy giá và báo cáo tài chính từ các trang tin tài chính trong nước; MIT; cài từ GitHub | Bảo trì thấp (2025) | ✔ |
+| **vietfin** | Thư viện/CLI dữ liệu Việt Nam | Commit cuối 04/2024 — ngừng thực tế | ✖ |
+| **FiinQuant / FiinQuantX** (FiinGroup) | Thư viện Python dữ liệu thời gian thực, lịch sử, báo cáo tài chính (HOSE/HNX/UPCoM); **trả phí** (các gói Basic/Advanced/Professional; số tiền chưa xác minh); cần tài khoản | Kho chính thức cập nhật 09/2026 | ✔ (gián tiếp) |
+| **SSI FastConnect Data** (iBoard) | API dữ liệu thời gian thực cơ sở/phái sinh; lấy consumerID/secret trên iBoard; theo trang SSI là miễn phí, kích hoạt tại phòng giao dịch (chưa mở trang gốc) | SDK `ssi-fc-data` 2.2.2 (06/2024) — cập nhật chậm | ✔ (gián tiếp) |
+| Vietstock, CafeF (dịch vụ dữ liệu) | Chưa xác minh gói và giá | — | ? |
+| Cộng đồng MT5/MQL5 tiếng Việt; kênh YouTube, blog, diễn đàn quant tiếng Việt | **Không tìm thấy** qua công cụ khả dụng (không tra được Facebook/YouTube) — không có nghĩa là không có | — | ? |
+
+Một số dự án trên có nhóm cộng đồng trên Facebook ghi trong README của dự án; mức hoạt động **chưa kiểm** — hãy áp dụng bảng "dấu hiệu cảnh báo" ở mục 13 khi tham gia.
 
 ## 12. Lộ trình học gợi ý (theo giai đoạn, không theo thời gian)
 
