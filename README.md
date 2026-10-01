@@ -31,6 +31,7 @@ Kho preprint (**arXiv q-fin**, **SSRN**, NBER), tạp chí bình duyệt (*Journ
 | [03 — Yếu tố cốt lõi](docs/03-yeu-to-cot-loi.md) | 10 yếu tố, sai lầm điển hình, checklist trước khi chạy tiền thật |
 | [04 — Kiến trúc tham chiếu](docs/04-kien-truc-tham-chieu.md) | Bảy lớp của một hệ thống quant, ba cấu hình theo quy mô, tám nguyên tắc thiết kế |
 | [05 — Thị trường Việt Nam](docs/05-thi-truong-viet-nam.md) | Cổ phiếu, phái sinh, API, tiền mã hóa, forex/CFD, thuế — kèm nhãn đối chiếu |
+| [06 — Bộ não Obsidian](docs/06-bo-nao-obsidian.md) | Dùng repo làm vault Obsidian; trích ghi chú quant từ BRAIN/Assistant bằng `tools/extract_quant_notes.py` (chạy trên máy cá nhân, không đưa ghi chú riêng tư lên git) |
 
 ## Trạng thái và giới hạn
 

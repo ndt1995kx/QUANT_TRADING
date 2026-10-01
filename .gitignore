@@ -1,0 +1,12 @@
+# Ghi chú riêng tư trích từ vault khác — KHÔNG đưa lên repo công khai
+_extracted/
+private/
+
+# Obsidian: giữ cấu hình chung, bỏ trạng thái cục bộ
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+
+# Hệ điều hành / công cụ
+.DS_Store
+__pycache__/
